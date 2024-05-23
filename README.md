@@ -106,41 +106,44 @@ To receive all points, your Jupyter notebook file must have all of the following
 
 ## Conclusion
 
-### Analysis of Model Performances
+# Final Evalalution of the Models
 
 #### Logistic Regression Model
 
 - **Score:** 0.9261
-- **Predictions:**
-  - Correctly predicted: 7 out of 10 (from the sample provided)
-  - Incorrectly predicted: 3 out of 10 (from the sample provided)
-- **Accuracy:** The score suggests it has a high accuracy of 92.61%.
+- **Predictions:** Looking at the Prediciton Table Comparison
+  - Correctly predicted: 7 out of 10 
+  - Incorrectly predicted: 3 out of 10 
+- **Accuracy:** High accuracy of 92.61%.
 
 #### Random Forest Classifier Model
 
 - **Score:** 0.9580
-- **Predictions:**
-  - Correctly predicted: 16 out of 20 (from the sample provided)
-  - Incorrectly predicted: 4 out of 20 (from the sample provided)
-- **Accuracy:** The score indicates a higher accuracy of 95.80%.
+- **Predictions:** From the prediciton table comparison 
+  - Correctly predicted: 16 out of 20 
+  - Incorrectly predicted: 4 out of 20 
+- **Accuracy:** High accuracy of 95.80%.
 
-### Expected vs. Actual Performance
+# Which Model Performed Better 
 
-As predicted, the Random Forest model outperformed the Logistic Regression model. This outcome aligns with the initial hypothesis that Random Forest would handle the complex patterns in the spam detection task better due to its ability to capture non-linear relationships and its robustness to noise and outliers.
+As predicted, the Random Forest model outperformed the Logistic Regression model. This aligns with the original hypothesis that Random Forest would handle the complex patterns in the spam detection task better due to its ability to capture non-linear relationships and its robustness to noise and outliers.
 
-### Detailed Evaluation
+# How it compared to my prediction 
+- My initial hypothesis (listed above) was that the Random Forest Model would give a better prediciton because of its abiity to capture non-linear relationships and deal with a diverse set of features in the dataset and handling complex patterns which can be associated with spam emails. 
+
+#### Detailed Evaluation
 
 1. **Complexity and Feature Handling:**
-   - **Random Forest:** With its ensemble of decision trees, it can capture intricate patterns and interactions among features, making it more suitable for the diverse and complex nature of spam detection.
+   - **Random Forest:** With its decision tree structure, it can capture intricate patterns and interactions among features, making it more suitable for the complex data of spam detection.
    - **Logistic Regression:** Although effective for linear relationships, it may struggle with the non-linear interactions present in the dataset.
-   
+
 2. **Performance Metrics:**
    - **Accuracy:** Random Forest has a higher accuracy score, indicating better overall performance.
-   - **Error Analysis:** The Random Forest model had fewer incorrect predictions compared to the Logistic Regression model, demonstrating its superior capability in distinguishing between spam and non-spam emails.
+   - **Error Analysis:** The Random Forest model had fewer incorrect predictions vs the Logistic Regression model, showing its superior capability in distinguishing between spam and non-spam emails.
 
-### Conclusion
+# Conclusion
 
-The analysis confirms that the Random Forest model outperforms the Logistic Regression model for the task of spam detection in emails. Its ability to manage complex, non-linear relationships and its robustness to various feature types makes it a better choice for this specific application.
+The analysis confirms that the Random Forest model outperforms the Logistic Regression model for the task of spam detection in emails. Its ability to manage complex, non-linear relationships and its robustness shows that for detecting spam in emails its a better choice
 
 ## Sources
 
